@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Butterfly Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-container">
+        <!-- Animated background elements -->
+        <div class="bg-particle" style="--delay: 0s; --duration: 3s; --size: 4px;"></div>
+        <div class="bg-particle" style="--delay: 1s; --duration: 4s; --size: 6px;"></div>
+        <div class="bg-particle" style="--delay: 2s; --duration: 5s; --size: 3px;"></div>
+        <div class="bg-particle" style="--delay: 3s; --duration: 3.5s; --size: 5px;"></div>
+        <div class="bg-particle" style="--delay: 4s; --duration: 4.5s; --size: 4px;"></div>
+        <div class="bg-particle" style="--delay: 5s; --duration: 6s; --size: 7px;"></div>
+        
+        <!-- Floating leaves/flowers -->
+        <div class="floating-element leaf1" style="--delay: 0s;"></div>
+        <div class="floating-element leaf2" style="--delay: 2s;"></div>
+        <div class="floating-element leaf3" style="--delay: 4s;"></div>
+        <div class="floating-element flower1" style="--delay: 1s;"></div>
+        <div class="floating-element flower2" style="--delay: 3s;"></div>
+    </div>
+
+    <!-- Multiple butterflies -->
+    <div class="butterfly" id="butterfly1">
+        <div class="butterfly-wing left-wing">
+            <div class="wing-pattern"></div>
+        </div>
+        <div class="butterfly-body"></div>
+        <div class="butterfly-wing right-wing">
+            <div class="wing-pattern"></div>
+        </div>
+    </div>
+
+    <div class="butterfly" id="butterfly2">
+        <div class="butterfly-wing left-wing">
+            <div class="wing-pattern"></div>
+        </div>
+        <div class="butterfly-body"></div>
+        <div class="butterfly-wing right-wing">
+            <div class="wing-pattern"></div>
+        </div>
+    </div>
+
+    <div class="butterfly" id="butterfly3">
+        <div class="butterfly-wing left-wing">
+            <div class="wing-pattern"></div>
+        </div>
+        <div class="butterfly-body"></div>
+        <div class="butterfly-wing right-wing">
+            <div class="wing-pattern"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
